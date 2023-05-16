@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <script src="index.js"></script>
+</head>
+<body>
+<table>
+  <tr>
+    <td>Brukernavn</td>
+    <td><input type="text" id="brukernavn" onchange="validerBrukernavn()"/></td>
+  </tr>
+  <tr>
+    <td>Passord</td>
+    <td><input type="text" id="passord" onchange="validerPassord()"/></td>
+  </tr>
+  <tr>
+    <td><button id="registrer" onclick="regMelding()">Registrer</button></td>
+    <td><button id="login" onclick="login()">Loginn</button></td>
+  </tr>
+</table>
+<div id="statusLoggetInn"></div>
+</body>
+</html>
